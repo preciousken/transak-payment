@@ -1,0 +1,16 @@
+{
+  "name": "transak-payment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  }
+}
